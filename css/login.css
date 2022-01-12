@@ -1,0 +1,30 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:0;
+    padding:0;
+}
+main{
+    background-color: rgb(247, 217, 155);
+    background-image: url('../img/login_bg.png');
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.section{
+    height: 810px;
+}
+.form{
+    height: 400px;
+    width: 400px;
+    /* background-color:burlywood; */
+    background-color:rgb(125, 153, 231);
+    border-radius: 50%;
+    box-shadow: 0px 10px 5px 3px rgba(0, 0, 0, 0.5);
+}
+h2{
+   text-shadow: 1px 1px white, -1px -1px #444;
+}
+footer{
+    height:80px;
+    color:rgb(182, 178, 178);
+}
